@@ -1,0 +1,65 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.btn {
+	border-radius: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+	background-color: #315dfe;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	border: none;
+	margin-top: 50px;
+}
+
+
+.cover-heading {
+	font-size: 5em;
+	font-weight: 100;
+	color: #fff;
+
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../../assets/img/blue-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lead {
+	color: #fff;
+	font-size: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.nav-item{
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand{
+	font-weight: 700;
+	color: #fff;
+
+}
+
