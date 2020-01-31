@@ -51,7 +51,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 0;
+  margin: auto;
 }
 
 .lead {
@@ -75,6 +75,9 @@ h3 {
 	color: #fff;
 
 }
+.navbar-trans {
+  background: transparent; }
+
 .thing {
 	background-color: #fff;
 }
@@ -82,17 +85,12 @@ h3 {
 .leftside, .rightside {
 	width: 100%;
 	margin-top: 0px;
+	min-height: 600px;
 }
 
-@media screen and (min-width:768px)
-{
-	.leftside,.rightside {
-		height: 75vh;
-	}
-}
 
 .leftside {
-	padding: 15%;
+	padding:10%;
 	color: #333;
 }
 
